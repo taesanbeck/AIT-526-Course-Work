@@ -1,5 +1,5 @@
 import streamlit as st
-from eliza_streamlit import reflect, analyze, talk_to_me
+from eliza_streamlit import talk_to_me
 
 # THIS IS THE FRONT END FILE FOR THE STREAMLIT APP, NOT TO BE RUN ON ITS OWN
 
