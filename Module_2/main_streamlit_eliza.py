@@ -1,5 +1,5 @@
 import streamlit as st
-from eliza_streamlit import talk_to_me
+import eliza_streamlit as el
 
 # THIS IS THE FRONT END FILE FOR THE STREAMLIT APP, NOT TO BE RUN ON ITS OWN
 
@@ -14,7 +14,7 @@ statement = st.text_input('Enter your statement:')
 
 # If a statement is entered, analyze it and display the response
 if statement:
-    response = talk_to_me(statement)
+    response = el.talk_to_me(statement)
     st.write('Eliza: ', response)
 
 # Create a link to the GitHub Repo
