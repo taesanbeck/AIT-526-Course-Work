@@ -17,6 +17,8 @@ if statement:
     response = talk_to_me(statement)
     st.write('Eliza: ', response)
 
+# Create a link to the GitHub Repo
 st.markdown("[Link to GitHub Repository](https://github.com/taesanbeck/AIT-526-Course-Work/tree/main/Module_2)")
 
+# Add everyones names
 st.markdown("##### Contributors: Sean Lam, Henry Wu, George Cross, and Sid Beck")
