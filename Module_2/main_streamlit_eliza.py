@@ -19,4 +19,4 @@ if statement:
 
 st.markdown("[Link to GitHub Repository](https://github.com/taesanbeck/AIT-526-Course-Work/tree/main/Module_2)")
 
-st.markdown("### Contributors: Sean Lam, Henry Wu, George Cross, and Sid Beck")
+st.markdown("##### Contributors: Sean Lam, Henry Wu, George Cross, and Sid Beck")
